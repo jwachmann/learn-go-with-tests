@@ -12,11 +12,6 @@ const englishHelloPrefix = "Hello"
 const frenchHelloPrefix = "Bonjour"
 const spanishHelloPrefix = "Hola"
 
-func main() {
-	fmt.Println(hello("World", ""))
-	fmt.Println(rscHello())
-}
-
 func hello(name string, language string) string {
 	if name == "" {
 		name = "World"
