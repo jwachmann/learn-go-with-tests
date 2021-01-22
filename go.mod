@@ -1,6 +1,6 @@
 module james.com/hello2
 
-go 1.15
+go 1.16
 
 require (
 	github.com/kisielk/errcheck v1.5.0 // indirect
